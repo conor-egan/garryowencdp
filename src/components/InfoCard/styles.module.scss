@@ -1,0 +1,18 @@
+@import '../../styles/colors.scss';
+
+.infoCard {
+    border: none;
+    box-shadow: none !important;
+    font-family: 'Bubblebody Neue';
+    text-align: center;
+    background-color: transparent !important;
+    padding: 20px;
+    z-index: 2;
+    width: 100%;
+    margin: auto;
+}
+
+.infoHeading {
+    color: $purple-primary;
+    font-size: 2rem;
+}

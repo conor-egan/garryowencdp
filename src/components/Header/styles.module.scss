@@ -1,0 +1,27 @@
+@import '../../styles/colors.scss';
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 6rem;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.header h1 {
+    color: $purple-primary;
+    font-family: 'Bubblebody Neue';
+    margin-top: 1.5rem;
+    vertical-align: middle;
+}
+
+.headerIcon {
+    height: 75px;
+    width: 75px;
+    margin: .5rem 1rem .5rem 1rem;
+}
+
+.branding {
+    display: flex;
+}

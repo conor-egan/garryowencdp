@@ -1,0 +1,25 @@
+@import '../../styles/colors.scss';
+
+.bannerContent {
+    background-image: url('../../images/AI-homepage.webp');
+    background-size: cover;
+    border-top: 1px solid $gray-light;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay; adjust opacity as needed */
+    z-index: 1;
+    position: absolute;
+}
+
+.bannerWrapper {
+    position: relative;
+  width: 100%;
+}

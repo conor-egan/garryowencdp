@@ -1,0 +1,6 @@
+@import '../../../styles/colors.scss';
+
+.activeLink {
+    color: $purple-primary !important;
+    border-bottom: 2px solid $purple-primary;
+}

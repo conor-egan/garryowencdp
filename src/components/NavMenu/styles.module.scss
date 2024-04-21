@@ -1,0 +1,15 @@
+@import '../../styles/colors.scss';
+.navMenu {
+    margin-left: auto;
+    margin-top: 2rem;
+    vertical-align: middle;
+}
+
+.navMenu a {
+    color: $green-primary;
+    font-family: 'Bubblebody Neue';
+    font-size: 1.2rem;
+    padding: 24px;
+    text-transform: capitalize;
+    text-decoration: none;
+}

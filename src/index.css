@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Bubblebody Neue';
+  src: local('Bubblebody Neue'),
+    url('./fonts/bubbleboddy_neue/bubbleboddyneue-regular\ trial.ttf');
+}
