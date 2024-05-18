@@ -1,0 +1,18 @@
+@import '../../styles/colors.scss';
+
+.bulletRow {
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.bulletText {
+    margin-left: .5rem !important;
+    margin-top: .3rem !important;
+}
+
+.infoHeader {
+    color: $purple-primary;
+}
